@@ -18,6 +18,7 @@ for _ in range(n):
                     if seat_number == j:
                         print(facing_seat_number, end=" ")
                         print(seat_type)
+                        break
         else:
             difference = 1
             temp = 0
@@ -31,3 +32,4 @@ for _ in range(n):
                     if seat_number == j:
                         print(facing_seat_number, end=" ")
                         print(seat_type)
+                        break
